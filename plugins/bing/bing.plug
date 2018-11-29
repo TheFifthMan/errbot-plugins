@@ -1,0 +1,10 @@
+[Core]
+name = bing
+module = bing
+
+[Documentation]
+description = bing
+
+[Python]
+version = 3
+

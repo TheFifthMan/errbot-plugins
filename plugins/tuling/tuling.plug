@@ -1,0 +1,10 @@
+[Core]
+name = tuling
+module = tuling
+
+[Documentation]
+description = tuling bot
+
+[Python]
+version = 3
+

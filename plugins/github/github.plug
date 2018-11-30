@@ -1,0 +1,10 @@
+[Core]
+name = github
+module = github
+
+[Documentation]
+description = github monitor
+
+[Python]
+version = 3
+

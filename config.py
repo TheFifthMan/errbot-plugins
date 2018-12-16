@@ -8,8 +8,9 @@ import os
 
 BACKEND = 'Slack'  # Errbot will start in text mode (console only mode) and will answer commands from there.
 
-BOT_DATA_DIR = r'C:\\project\\slack-bot\\data'
-BOT_EXTRA_PLUGIN_DIR = r'C:\\project\\slack-bot\\plugins'
+BOT_DATA_DIR = os.path.join(os.getcwd(),'data')
+
+BOT_EXTRA_PLUGIN_DIR = os.path.join(os.getcwd(),'plugins')
 
 AUTOINSTALL_DEPS = True
 

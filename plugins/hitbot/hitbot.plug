@@ -1,0 +1,10 @@
+[Core]
+name = hitbot
+module = hitbot
+
+[Documentation]
+description = hitbot
+
+[Python]
+version = 3
+

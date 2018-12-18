@@ -1,0 +1,10 @@
+[Core]
+name = gank
+module = gank
+
+[Documentation]
+description = https://gank.io/api/today
+
+[Python]
+version = 3
+

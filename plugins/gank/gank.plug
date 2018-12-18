@@ -1,0 +1,10 @@
+[Core]
+name = gank
+module = gank
+
+[Documentation]
+description = gank
+
+[Python]
+version = 3
+

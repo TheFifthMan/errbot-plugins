@@ -23,4 +23,4 @@ SENTRY_LOGLEVEL = BOT_LOG_LEVEL
 BOT_IDENTITY = {
     'token': os.environ.get('SLACKTOKEN'),
 }
-BOT_ADMINS = ('@johnw','@403481704','@*' )  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!
+BOT_ADMINS = ('@a403481704' )  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!

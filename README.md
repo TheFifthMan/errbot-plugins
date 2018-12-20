@@ -2,11 +2,11 @@
 Plugins for slackbot. Basic on [errbot](http://errbot.io/en/latest) 
 
 # How to deploy your server
-1. Install supervisor
+## 1. Install supervisor
 ```
 pip install supervisor
 ``` 
-2. Configure supervisor
+## 2. Configure supervisor
 ```
 echo_supervisord_conf > <your-config-path>/supervisord.conf
 
@@ -37,14 +37,14 @@ password=wzw01@1992
 files = <your-path-to-config>/*.conf
 
 ```
-3. Install Python3
-4. Deploy Code
+## 3. Install Python3
+## 4. Deploy Code
 ```
 python3 -m venv venv 
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-5. slackbot for supervisor
+## 5. slackbot for supervisor
 ```
 [program:slackbot]
 command = <your-path-source-code>/slackbot/venv/bin/errbot
@@ -56,7 +56,10 @@ directory =<your-path-to-source-code>/slackbot/
 startsecs = 3
 autorestart = true
 environment = ADMIN=xxx,SLACKTOKEN=xxxx
-6. start 
+```
+
+## 6. start 
+
 ```
 $supervisorctl -c supervisor.conf
 $reread
